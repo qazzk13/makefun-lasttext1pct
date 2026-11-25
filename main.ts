@@ -13,7 +13,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 const OUTPUT_DIR = "/output";
 const ENTRY_PATH = `${OUTPUT_DIR}/entry.txt`;
 const ENTRY_LINE =
-  "hey, this is his phone, i'm on 1% so i'll be quick: tell maya he's sorry about tuesday, the spare key is under the blue pot, and the dog ate twice, so don't let him beg a third dinner";
+  "hey, this is his phone, i'm at 1% and going dark, so quick: tell maya he's sorry about tuesday, the spare key is under the blue pot, and the dog already ate twice today, no third dinner";
 
 const chars = [...ENTRY_LINE].length;
 if (chars < 1 || chars > 200) {
